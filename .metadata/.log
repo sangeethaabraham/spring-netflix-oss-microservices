@@ -1082,3 +1082,6 @@ java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.dadacoalition.yedit 4 0 2018-08-28 15:47:38.520
+!MESSAGE Marking errors not supported for files outside of a project.
