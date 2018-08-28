@@ -9,4 +9,4 @@ spring:
             server:
                 git:
                     uri: https://github.com/sangeethaabraham/spring-netflix-oss-microservices.git
-                    searchPaths: CONFIG
+                    searchPaths: MASTER
