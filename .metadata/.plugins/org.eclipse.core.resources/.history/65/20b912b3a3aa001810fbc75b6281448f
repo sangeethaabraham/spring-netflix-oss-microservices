@@ -1,0 +1,5 @@
+package com.spring.netflix.oss.microservices.api;
+
+public class CardServiceController {
+
+}

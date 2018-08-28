@@ -1,0 +1,44 @@
+package com.spring.netflix.oss.microservices.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@Getter
+public class Card {
+
+	private Long id;
+    private String cardHolderName;
+    private String pan;
+    private String validDate;
+     
+    public Card() {
+        super();
+    }
+     
+    public Card(Long id, String cardHolderName, String pan, String validDate) {
+        super();
+        this.id = id;
+        this.cardHolderName = cardHolderName;
+        this.pan = pan;
+        this.validDate = validDate;
+    }
+ 
+ 
+ 
+    public Card(String cardHolderName, String pan, String validDate) {
+        super();
+        this.cardHolderName = cardHolderName;
+        this.pan = pan;
+        this.validDate = validDate;
+    }
+}
