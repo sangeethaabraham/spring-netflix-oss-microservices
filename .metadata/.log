@@ -1091,3 +1091,12 @@ java.lang.NoSuchMethodError: org.springframework.util.Assert.notNull(Ljava/lang/
 
 !ENTRY org.dadacoalition.yedit 4 0 2018-08-28 16:52:29.528
 !MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2018-08-28 17:18:41.398
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2018-08-28 17:41:44.211
+!MESSAGE Marking errors not supported for files outside of a project.
+
+!ENTRY org.dadacoalition.yedit 4 0 2018-08-28 17:43:08.222
+!MESSAGE Marking errors not supported for files outside of a project.
