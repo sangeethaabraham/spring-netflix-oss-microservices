@@ -4,4 +4,4 @@ port: 8904
 eureka:
 client:
 serviceUrl:
-defaultZone: http://localhost:8761/eureka/
+defaultZone: http://localhost:8001/eureka/
